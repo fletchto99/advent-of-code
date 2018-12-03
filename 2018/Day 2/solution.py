@@ -3,6 +3,7 @@ with open('input.txt') as fp:
 
   twos = 0
   threes = 0
+  same = ""
 
   letters = dict()
   found_two = False
@@ -17,7 +18,6 @@ with open('input.txt') as fp:
       else:
         letters[char] = 1
     for letter in letters:
-      print(letters[letter])
       if letters[letter] == 2 and not found_two:
         found_two = True
         twos += 1
@@ -26,4 +26,21 @@ with open('input.txt') as fp:
         threes += 1
     letters = dict()
 
+    if same == "":
+      for line2 in lines:
+        if line != line2:
+          matching = ""
+          mismatch = 0
+          for idx, val in enumerate(line):
+            if mismatch > 1:
+              matching = ""
+              break
+            if val != line2[idx]:
+              mismatch += 1
+            else:
+              matching += val
+          if mismatch == 1:
+            same = matching
+
   print(twos*threes)
+  print(same)
