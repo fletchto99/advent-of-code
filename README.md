@@ -7,7 +7,7 @@ by using a new language every day. Some friends helped me create a list of langu
 
 ## Solutions
 
-- [Day 1: Brainfuck]("2018/Day%201/part1.b") (only part 1)
+- [Day 1: Brainfuck](2018/Day%201/part1.b) (only part 1)
 - Day 2: Whitespace (TBD)
 - Day 3: Hodor (TBD)
 
