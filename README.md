@@ -34,7 +34,6 @@ by using a new language every day. Some friends helped me create a list of langu
 - Racket
 - Rust
 - SQL
-- Shakespeare
 - Swift
 - Turing
 - Vimscript
