@@ -10,8 +10,7 @@ with open('input.txt') as fp:
   end = 0
 
   for line in lines:
-    newl = line.replace("1518", "2018")
-    splt = newl.split(" ")
+    splt = line.split(" ")
     timestamp = str((splt[0])[1:]) + " " + str((splt[1][:-1]))
     parsed_timestamp = datetime.strptime(timestamp, '%Y-%m-%d %H:%M')
     action = ""
