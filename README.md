@@ -10,6 +10,7 @@ by using a new language every day. Some friends helped me create a list of langu
 - [Day 1: Brainfuck](2018/Day%201/part1.b) (only part 1)
 - [Day 2: Whitespace](2018/Day%202/solution.ws) (only part 1)
 - Day 3: Hodor (TBD)
+- Day 4: LOLCODE (TBD)
 
 ## Permitted languages
 
