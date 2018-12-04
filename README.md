@@ -14,6 +14,7 @@ by using a new language every day. Some friends helped me create a list of langu
 ## Permitted languages
 
 - Ada
+- Algol 68
 - Bash
 - Brainfuck
 - C
@@ -24,13 +25,17 @@ by using a new language every day. Some friends helped me create a list of langu
 - Hodor
 - Java
 - Julia
+- LOLCODE
 - Lua
 - Nim
 - Ocaml
+- Perl
+- Pikascript
 - Racket
 - Rust
 - SQL
 - Shakespeare
 - Swift
 - Turing
+- Vimscript
 - Whitespace
