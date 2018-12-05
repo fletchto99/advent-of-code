@@ -13,16 +13,17 @@ for char in alphabet:
 
 def merge(polymer):
   poly = polymer
-  poly2 = ""
-  while poly != poly2:
-    poly2 = poly
+  while True:
+    length = len(poly)
     for pair in to_replace:
       poly = poly.replace(pair, "")
     for pair in to_replace2:
       poly = poly.replace(pair, "")
+    if length == len(poly):
+      break
   return poly
 
-with open('input.txt') as fp:
+with open('sample.txt') as fp:
   lines = fp.readlines()
 
   for line in lines:
