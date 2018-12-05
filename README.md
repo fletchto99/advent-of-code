@@ -11,7 +11,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donte $2 
 
 - [Day 1: Brainfuck](2018/Day%201/part1.b) (only part 1) - 5 hours
 - [Day 2: Whitespace](2018/Day%202/solution.ws) (only part 1) - 7 hours
-- Day 3: LOLCODE (TBD)
+- Day 3: (TBD)
 - Day 4: (TBD)
 - [Day 2: Racket](2018/Day%205/solution.rkt) (both parts) - 2 hours
 

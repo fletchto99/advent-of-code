@@ -17,5 +17,3 @@ with open('input.txt') as fp:
         printed = True
 
     print(repeated)
-
-
