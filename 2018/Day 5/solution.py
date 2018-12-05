@@ -34,10 +34,3 @@ with open('input.txt') as fp:
       modified = modified.replace(char.upper(), "")
       results.append(len(merge(modified))-1)
     print(min(results))
-
-
-
-
-
-
-
