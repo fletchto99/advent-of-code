@@ -23,6 +23,5 @@ for line in open('input.txt'):
       elif fabric[x+offset_x][y+offset_y] == -1:
         overlapping.add(num)
 
-
-print(ids-overlapping)
 print(overlap)
+print(ids-overlapping)

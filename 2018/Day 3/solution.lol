@@ -1,0 +1,6 @@
+CAN HAS STDIO?
+HAI 1.2
+  I HAS A noobz ITZ A YARN
+  GIMMEH noobz
+  VISIBLE noobz
+KTHXBYE
