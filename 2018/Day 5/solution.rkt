@@ -1,7 +1,22 @@
 #lang racket
 (define alphabet (string->list "abcdefghijklmnopqrstuvwxyz"))
-(define forward-substitutes (list "aA" "bB" "cC" "dD" "eE" "fF" "gG" "hH" "iI" "jJ" "kK" "lL" "mM" "nN" "oO" "pP" "qQ" "rR" "sS" "tT" "uU" "vV" "wW" "xX" "yY" "zZ"))
-(define reverse-substitutes (list "Aa" "Bb" "Cc" "Dd" "Ee" "Ff" "Gg" "Hh" "Ii" "Jj" "Kk" "Ll" "Mm" "Nn" "Oo" "Pp" "Qq" "Rr" "Ss" "Tt" "Uu" "Vv" "Ww" "Xx" "Yy" "Zz"))
+(define (list-substitutes)
+  (define substitutes '())
+  (for-each (lambda (char)
+    (set! substitutes
+      (append substitutes
+        (list
+          (string-append
+            (string char)
+            (string (char-upcase char))))))
+    (set! substitutes
+      (append substitutes
+        (list
+          (string-append
+            (string (char-upcase char))
+            (string char))))))
+    alphabet)
+  substitutes)
 (define polymer (read-line (current-input-port) 'linefeed))
 (define (synthisize polymer)
   (define poly polymer)
@@ -11,10 +26,7 @@
           (set! length (string-length poly))
           (for-each (lambda (sub)
             (set! poly (string-replace poly sub "")))
-            forward-substitutes)
-          (for-each (lambda (sub)
-            (set! poly (string-replace poly sub "")))
-            reverse-substitutes))
+            (list-substitutes)))
   length)
 (define (optimized-synthisize polymer)
   (define results '())
