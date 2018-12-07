@@ -57,7 +57,7 @@ while True:
   avaliable = []
 
   if len(workers) > 0:
-    workers = sorted(workers, key=lambda x: (x[1], x[0]))
+    workers = sorted(workers, key=lambda x: (x[1], x[2], x[0]))
     if workers[0][1] <= 0:
       complete = workers.pop(0)
       completed.append(complete[0])
@@ -84,13 +84,7 @@ while True:
   avaliable.sort()
   while len(workers) != max_workers and len(avaliable) > 0:
     add_worker = avaliable.pop(0)
-    workers.append([add_worker, steps[add_worker]['time']])
-
-  workers = sorted(workers, key=lambda x: (x[1], x[0]))
-
-  worker_1 = workers[0][0] if len(workers) >= 1 else "-"
-  worker_2 = workers[1][0] if len(workers) >= 2 else "-"
-  print(str(global_time) + " " + worker_1 + " " + worker_2 + " " + "".join(str(x) for x in completed))
+    workers.append([add_worker, steps[add_worker]['time'], global_time])
 
   global_time += 1
   for worker in workers:
