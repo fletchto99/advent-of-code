@@ -1,11 +1,9 @@
-line = []
-
-def parse_node():
-  node_len = int(line.pop(0))
-  metadata_len = int(line.pop(0))
+def parse_node(remaining):
+  node_len = int(remaining.pop(0))
+  metadata_len = int(remaining.pop(0))
   node = {
-    'children': [parse_node() for i in range(node_len)],
-    'metadatas': [int(line.pop(0)) for i in range(metadata_len)]
+    'children': [parse_node(remaining) for i in range(node_len)],
+    'metadatas': [int(remaining.pop(0)) for i in range(metadata_len)]
   }
   return node
 
@@ -20,8 +18,6 @@ def recursive_add(node, total):
   return sum(recursive_add(node['children'][i-1], total) for i in node['metadatas'] if i-1 < len(node['children']))
 
 with open('input.txt') as f:
-  line = f.read().rstrip().split(" ")
-
-root = parse_node()
-print(recursive_sum(root, 0))
-print(recursive_add(root, 0))
+  root = parse_node(f.read().rstrip().split(" "))
+  print(recursive_sum(root, 0))
+  print(recursive_add(root, 0))
