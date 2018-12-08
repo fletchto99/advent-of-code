@@ -1,11 +1,10 @@
 def parse_node(remaining):
   node_len = int(remaining.pop(0))
   metadata_len = int(remaining.pop(0))
-  node = {
+  return {
     'children': [parse_node(remaining) for i in range(node_len)],
     'metadatas': [int(remaining.pop(0)) for i in range(metadata_len)]
   }
-  return node
 
 def recursive_sum(node, total):
   if node['children']:
