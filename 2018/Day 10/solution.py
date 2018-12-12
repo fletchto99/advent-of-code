@@ -1,7 +1,6 @@
 points = []
 size = 350
 end = 15000
-f = open("output.txt", "w")
 
 for line in open('input.txt'):
   points.append({
