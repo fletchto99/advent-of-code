@@ -40,7 +40,12 @@ SELECT
       (g.y between y.len AND y.len+s.len-1)
   )
 FROM size AS x, size AS y, size as s
-WHERE s.len < 5 and x.len + s.len - 1 <= 300 AND y.len + s.len - 1 <= 300;
+WHERE s.len < 20 and x.len + s.len - 1 <= 300 AND y.len + s.len - 1 <= 300;
+/* The number ^^ can be changed to something larger, the large it is the
+ * Longer the query is going to take. Setting it to 300 will analyze every
+ * Possible result but will likely take a long time (>10 minutes for me)
+ * 20 should take under a minute to complete */
+
 
 SELECT X, Y, Size, Area
 FROM Areas
