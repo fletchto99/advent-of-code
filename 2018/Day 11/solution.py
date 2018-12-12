@@ -1,7 +1,10 @@
 from multiprocessing import Pool, TimeoutError
 
 size = 300
-serial_no = 9424
+serial_no = None
+
+with open('input.txt') as f:
+  serial_no = int(f.read().rstrip())
 
 grid = [[int(str((((x+11)*(y+1))+serial_no)*(x+11))[-3])-5 for y in range(size)] for x in range(size)]
 
@@ -19,7 +22,6 @@ def compute_best(data):
 
   to = min(300-x,300-y)
   area = grid[x][y]
-  print("Computing for (" + str(x) +", "+ str(x) + ") up to " + str(to))
 
   for s in range(1, to):
     if best_area == None or area > best_area:
