@@ -26,7 +26,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Ada
 - Algol 68
 - Bash
-- Brainfuck
+- ~~Brainfuck~~
 - C
 - C#
 - COBOL
@@ -41,10 +41,10 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Ocaml
 - Perl
 - Pikascript
-- Racket
+- ~~Racket~~
 - Rust
-- SQLite
+- ~~SQLite~~
 - Swift
 - Turing
 - Vimscript
-- Whitespace
+- ~~Whitespace~~
