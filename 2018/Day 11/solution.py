@@ -6,7 +6,7 @@ serial_no = None
 with open('input.txt') as f:
   serial_no = int(f.read().rstrip())
 
-grid = [[int(str((((x+11)*(y+1))+serial_no)*(x+11))[-3])-5 for y in range(size)] for x in range(size)]
+grid = [[((((x+11)*(y+1))+serial_no)*(x+11)//100 % 10)-5 for y in range(size)] for x in range(size)]
 
 def compute_best(data):
   x = data['x']
