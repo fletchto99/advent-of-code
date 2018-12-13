@@ -20,6 +20,8 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Day 9: (TBD)
 - Day 10: (TBD)
 - [Day 11: SQLite](2018/Day%2011/solution.sql) (both parts) - 2 hours
+- Day 12: (TBD)
+- Day 13: (TBD)
 
 ## Permitted languages
 
