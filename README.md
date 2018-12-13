@@ -39,13 +39,13 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Hodor
 - Java
 - Julia
-- LOLCODE
 - Lua
 - Nim
 - Ocaml
 - Perl
 - Pikascript
 - ~~Racket~~
+- Ruby
 - Rust
 - ~~SQLite~~
 - Swift
