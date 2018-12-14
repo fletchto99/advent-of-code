@@ -42,7 +42,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Julia
 - Lua
 - Nim
-- Ocaml
+- ~Ocaml~
 - Perl
 - Pikascript
 - ~~Racket~~
