@@ -1,28 +1,31 @@
-let rec parse_node(remaining):
-  node_len = int(remaining.pop(0))
-  metadata_len = int(remaining.pop(0))
-  children = [parse_node(remaining) for i in range(node_len)]
-  metadata = [int(remaining.pop(0)) for i in range(metadata_len)]
-  return {
-    'sum': sum(metadata) + (sum(c['sum'] for c in children) if children else 0),
-    'add': sum(metadata) if len(children) == 0 else sum(children[i-1]['add'] for i in metadata if i-1 < len(children))
-  }
+type node = {
+  children : node list;
+  metadata : int list;
+  };;
 
+let rec parse_metadata = function
+  | 0 -> []
+  | n -> try let a = Scanf.scanf " %d" (fun x -> x) in
+      a :: (parse_metadata (n-1))
+    with e -> Printf.printf "failed to parse metadata"; raise e;;
 
-let file = "input.txt"
+let rec parse_node =  function
+  |0 -> []
+  |n -> try let nbChildren, nbMetadata = Scanf.scanf " %d %d" (fun x y -> (x,y)) in
+      let children = parse_node nbChildren in
+      let meta = parse_metadata nbMetadata in
+      {children = children; metadata = meta} :: (parse_node (n-1))
+  with e -> Printf.printf "failed to parse node"; raise e;;
 
-let () =
-     let ic = open_in file in
-     let rec build_list infile =
-          try
-               let line = input_line infile in
-               line :: build_list(infile)
-          with End_of_file ->
-               close_in infile;
-               [] in
-     let rec print_list = function
-          [] -> ()
-          | e::l -> print_string e ; print_string " " ; print_list l in
-     print_list(build_list(ic))
-  print(root['sum'])
-  print(root['add'])
+let rec sum_metadata = function
+  |[] -> 0
+  | a::r -> (List.fold_left (+) 0 a.metadata) + (sum_metadata a.children) + (sum_metadata r);;
+
+let rec value_node = function
+  | n when (List.length n.children) == 0 -> List.fold_left (+) 0 n.metadata
+  | n ->
+    List.fold_left (fun old id -> old + (if id <= (List.length n.children) then (value_node (List.nth n.children (id - 1))) else 0)) 0 n.metadata;;
+
+let nodes = parse_node 1;;
+
+Printf.printf "meta sum = %d\n" (sum_metadata nodes);;
