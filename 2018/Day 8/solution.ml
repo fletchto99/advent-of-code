@@ -4,7 +4,7 @@
 type node = {
   sum : int ;
   add : int
-  };;
+};;
 
 (* Parses the root node in the tree *)
 let parse_tree remaining =
@@ -16,7 +16,7 @@ let parse_tree remaining =
    *)
   let counter = ref 0 in
 
-  (* Essentially like doing ++crt *)
+  (* Essentially like doing ++ctr *)
   let get_and_increment ctr =
     let result = !ctr in
     incr ctr;
