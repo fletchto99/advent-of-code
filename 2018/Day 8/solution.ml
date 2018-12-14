@@ -1,7 +1,10 @@
 #load "str.cma"
 
 (* Currently unused, will store node information *)
-type node ={ sum : int ; add : int };;
+type node = {
+  sum : int ;
+  add : int
+  };;
 
 (* Parses the root node in the tree *)
 let parse_tree remaining =
@@ -107,15 +110,14 @@ let parse_input input =
   parse (List.length(input)-1) []
 ;;
 
-let () =
-  (* Open the file *)
-  let in_ch = open_in "input.txt" in
+(* Open the file *)
+let in_ch = open_in "input.txt" in
 
-  (* Read the first line into a string *)
-  let line = try input_line in_ch with End_of_file -> exit 0 in
+(* Read the first line into a string *)
+let line = try input_line in_ch with End_of_file -> exit 0 in
 
-  (* Split the string on whitespace and store as a list of ints*)
-  let inp = parse_input(Str.split(Str.regexp "[ \n\r\x0c\t]+") line) in
+(* Split the string on whitespace and store as a list of ints*)
+let inp = parse_input(Str.split(Str.regexp "[ \n\r\x0c\t]+") line) in
 
-  (* Calculate the sum of the root node *)
-  print_int(parse_tree(inp));
+(* Calculate the sum of the root node *)
+print_int(parse_tree(inp));
