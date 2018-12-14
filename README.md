@@ -18,7 +18,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - [Day 5: Racket](2018/Day%205/solution.rkt) (both parts) - 2 hours
 - Day 6: (TBD)
 - Day 7: (TBD)
-- [Day 11: SQLite](2018/Day%208/solution.ml) (both parts) - 6 hours
+- [Day 8: OCaml](2018/Day%208/solution.ml) (both parts) - 6 hours
 - Day 9: (TBD)
 - Day 10: (TBD)
 - [Day 11: SQLite](2018/Day%2011/solution.sql) (both parts) - 2 hours
