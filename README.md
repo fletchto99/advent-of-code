@@ -11,7 +11,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 
 ### Charity Update
 
-Since these solutions have been taking me longer than expected to complete I've decided to donate $200 towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language evert day by the end of december I will donate another $50 to the GitHub fund.
+Since these solutions have been taking me longer than expected to complete I've decided to [donate $200](https://i.fletchto99.com/4edc8047.png) towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language evert day by the end of december I will donate another $50 to the GitHub fund.
 
 ## Solutions
 
