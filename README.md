@@ -9,6 +9,10 @@ by using a new language every day. Some friends helped me create a list of langu
 
 For every hour a solution takes me (up to 5 hours per solution) I will donate $2 to a charity of my choosing at the end of the event. I chose a large interval of time because I'm learning a new language each day, if the solution takes me less than an hour then I will use a 10 minute interval up to 50 minutes.
 
+### Charity Update
+
+Since these solutions have been taking me longer than expected to complete I've decided to donate $200 towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language evert day by the end of december I will donate another $50 to the GitHub fund.
+
 ## Solutions
 
 - [Day 1: Brainfuck](2018/Day%201/part1.b) (only part 1) - 5 hours
@@ -25,6 +29,7 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Day 12: (TBD)
 - Day 13: (TBD)
 - Day 14: (TBD)
+- Day 15: (TBD)
 
 ## Permitted languages
 
