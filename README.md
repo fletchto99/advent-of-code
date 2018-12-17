@@ -25,6 +25,9 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 - Day 12: (TBD)
 - Day 13: (TBD)
 - Day 14: (TBD)
+- Day 15: (TBD)
+- Day 16: (TBD)
+- Day 17: (TBD)
 
 ## Permitted languages
 
