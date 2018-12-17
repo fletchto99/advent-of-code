@@ -1,3 +1,6 @@
+# Solve P1 in one linee
+# print(sum(int(x) for x in open("input.txt")))
+
 with open('input.txt') as fp:
     lines = fp.readlines()
     frequencies = {0: True}
