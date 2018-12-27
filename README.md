@@ -23,7 +23,7 @@ Near the end of December I ended up being much busier than expected. I haven't h
 - Day 2: ([Python](2018/Day%204/solution.py)) ([Whitespace](2018/Day%202/solution.ws) - 7 hours)
 - Day 3: ([Python](2018/Day%203/solution.py))
 - Day 4: ([Python](2018/Day%204/solution.py))
-- Day 5: ([Python](2018/Day%205/solution.py)) (Racket(2018/Day%205/solution.rkt) - 2 hours)
+- Day 5: ([Python](2018/Day%205/solution.py)) ([Racket](2018/Day%205/solution.rkt) - 2 hours)
 - Day 6: ([Python](2018/Day%206/solution.py))
 - Day 7: ([Python](2018/Day%207/solution.py))
 - Day 8: ([Python](2018/Day%208/solution.py)) ([OCaml](2018/Day%208/solution.ml) - 6 hours)
