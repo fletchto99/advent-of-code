@@ -11,27 +11,35 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 
 ### Charity Update
 
-Since these solutions have been taking me longer than expected to complete I've decided to [donate $200](https://i.fletchto99.com/4edc8047.png) towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language evert day by the end of december I will donate another $50 to the GitHub fund.
+Since these solutions have been taking me longer than expected to complete I've decided to [donate $200](https://i.fletchto99.com/4edc8047.png) towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language every day by the end of December I will donate another $50 to the GitHub fund.
 
 ## Solutions
 
-- [Day 1: Brainfuck](2018/Day%201/part1.b) (only part 1) - 5 hours
-- [Day 2: Whitespace](2018/Day%202/solution.ws) (only part 1) - 7 hours
-- Day 3: (TBD)
-- Day 4: (TBD)
-- [Day 5: Racket](2018/Day%205/solution.rkt) (both parts) - 2 hours
-- Day 6: (TBD)
-- Day 7: (TBD)
-- [Day 8: OCaml](2018/Day%208/solution.ml) (both parts) - 6 hours
-- Day 9: (TBD)
-- Day 10: (TBD)
-- [Day 11: SQLite](2018/Day%2011/solution.sql) (both parts) - 2 hours
-- Day 12: (TBD)
-- Day 13: (TBD)
-- Day 14: (TBD)
+- Day 1: ([Python](2018/Day%201/solution.py)) ([Brainfuck](2018/Day%201/part1.b) - 5 hours)
+- Day 2: ([Python](2018/Day%204/solution.py)) ([Whitespace](2018/Day%202/solution.ws) - 7 hours)
+- Day 3: ([Python](2018/Day%203/solution.py))
+- Day 4: ([Python](2018/Day%204/solution.py))
+- Day 5: ([Python](2018/Day%205/solution.py)) (Racket(2018/Day%205/solution.rkt) - 2 hours)
+- Day 6: ([Python](2018/Day%206/solution.py))
+- Day 7: ([Python](2018/Day%207/solution.py))
+- Day 8: ([Python](2018/Day%208/solution.py)) ([OCaml](2018/Day%208/solution.ml) - 6 hours)
+- Day 9: ([Python](2018/Day%209/solution.py))
+- Day 10: ([Python](2018/Day%2010/solution.py))
+- Day 11: ([Python](2018/Day%2011/solution.py)) ([SQLite](2018/Day%2011/solution.sql) - 2 hours)
+- Day 12: ([Python](2018/Day%2012/solution.py))
+- Day 13: ([Python](2018/Day%2013/solution.py))
+- Day 14: ([Python](2018/Day%2014/solution.py))
 - Day 15: (TBD)
-- Day 16: (TBD)
+- Day 16: ([Python](2018/Day%2016/solution.py))
 - Day 17: (TBD)
+- Day 18: (TBD)
+- Day 19: ([Python](2018/Day%2019/solution.py))
+- Day 20: (TBD)
+- Day 21: (TBD)
+- Day 22: (TBD)
+- Day 23: (TBD)
+- Day 24: (TBD)
+- Day 25: (TBD)
 
 ## Permitted languages
 
