@@ -13,6 +13,10 @@ For every hour a solution takes me (up to 5 hours per solution) I will donate $2
 
 Since these solutions have been taking me longer than expected to complete I've decided to [donate $200](https://i.fletchto99.com/4edc8047.png) towards the GitHub fund. The GitHub fund is a fund created by my employer, where the proceeds split equally and go to 6 different charities. The 6 charities these funds went to are: [FIRST](https://www.firstinspires.org/), [Girls Who Code](https://girlswhocode.com/), [Public Patent Foundation](http://www.pubpat.org/), [Year Up](https://www.yearup.org/), [EFF](https://www.eff.org/) and [Women's Refugee Commission](https://www.womensrefugeecommission.org/). GitHub graciously matched my donation totaling $400 to be split. If I am unable to complete my goal of a new language every day by the end of December I will donate another $50 to the GitHub fund.
 
+### Charity Update 2
+
+Near the end of December I ended up being much busier than expected. I haven't had time to finish the challenges so I've donated another [$50](https://i.fletchto99.com/aafe768a.png) towards the GitHub fund. Once again, GitHub generously matched the donation.
+
 ## Solutions
 
 - Day 1: ([Python](2018/Day%201/solution.py)) ([Brainfuck](2018/Day%201/part1.b) - 5 hours)
