@@ -15,7 +15,7 @@ Since these solutions have been taking me longer than expected to complete I've 
 
 ### Charity Update 2
 
-Near the end of December I ended up being much busier than expected. I haven't had time to finish the challenges so I've donated another [$50](https://i.fletchto99.com/aafe768a.png) towards the GitHub fund. Once again, GitHub generously matched the donation.
+Near the end of December I ended up being much busier than expected. I haven't had time to finish the challenges so I've donated another [$50](https://i.fletchto99.com/aafe768a.png) towards the GitHub fund. Once again, GitHub generously matched the donation. Thanks for the fun during advent of code! Although I wasn't able to finish in the 25 days I did truly enjoy the challenges. I plan to complete the rest of the challenges over the next while! See you next year!
 
 ## Solutions
 
