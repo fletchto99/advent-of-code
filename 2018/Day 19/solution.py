@@ -103,17 +103,21 @@ for line in open("input.txt"):
             'params': [int(x) for x in asm[1:]]
         })
 
-registers = [0, 0, 0, 0, 0, 0]
-while registers[ip] < len(program):
-    # if registers[ip] == 4:
-    #     print(registers)
-    line = program[registers[ip]]
-    instruction = list(
-        filter(lambda instr: instr['name'] == line['instruction'],
-               valid_instructions))[0]
-    registers[line['params'][2]] = instruction['operation'](
-        registers, line['params'])
-    registers[ip] += 1
+for i in range(2):
+    registers = [i, 0, 0, 0, 0, 0]
+    stop = 0
+    while registers[ip] < len(program) and stop < 1000:
+        stop += 1
+        line = program[registers[ip]]
+        instruction = list(
+            filter(lambda instr: instr['name'] == line['instruction'],
+                   valid_instructions))[0]
+        registers[line['params'][2]] = instruction['operation'](
+            registers, line['params'])
+        registers[ip] += 1
 
-registers[ip] -= 1
-print(registers[0])
+    total = 0
+    for i in range(1, registers[3] + 1):
+        if registers[3] % i == 0:
+            total += i
+    print(total)
