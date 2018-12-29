@@ -58,4 +58,4 @@ for x in range(img.size[0]):
     for y in range(img.size[1]):
         pixels[x, y] = (text[y][x], text[y][x], text[y][x])
 print(image_to_string(img))
-print("Found at: " + str(time))
+print(str(time))
